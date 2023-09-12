@@ -1,3 +1,5 @@
+git add -A && git commit -m "a" && git push origin main
+
 Step 1: Set up and planning
 
 1. Set up your HTML and CSS files with some simple dummy content, just to make sure you have everything linked correctly.
