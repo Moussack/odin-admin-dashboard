@@ -1,3 +1,11 @@
+:root {
+   --primary: #1992d4;
+   --secondary: #d2d2ea;
+   --accent: #4c4ea4;
+   --textDark: #0a0a15;
+   --background: #f5f5fa;
+}
+
 html {
    box-sizing: border-box;
    font-size: 16px;
@@ -24,7 +32,7 @@ ol,
 ul {
    margin: 0;
    padding: 0;
-   /*  font-weight: normal; */
+   font-weight: 500;
 }
 
 ol,
@@ -35,6 +43,18 @@ ul {
 img {
    max-width: 100%;
    height: auto;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:link {
+   color: #fff;
+}
+
+a:visited {
+   color: #fff;
 }
 
 .main-container {
@@ -52,10 +72,51 @@ img {
 .sidebar {
    background-color: yellow;
    grid-row: 1 / -1;
+   background-color: var(--primary);
+   display: grid;
+   grid-template-rows: 5rem repeat(4, 1fr);
 }
 
 .main-content {
    background-color: blue;
    grid-column: 2 / -1;
    grid-row: 2 / -1;
+}
+
+.branding {
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+}
+
+.branding .logo {
+   width: 3.5rem;
+}
+
+.branding h1 {
+   font-size: 1.8rem;
+}
+
+.logo {
+   width: 1.8rem;
+}
+.buttons1 {
+   margin-top: 2rem;
+}
+
+.buttons1,
+.buttons2 {
+   margin-bottom: 5rem;
+   display: grid;
+   gap: 1.4rem;
+   padding-left: 1.7rem;
+}
+
+.qwe {
+   width: 1.8rem;
+}
+
+.button-items {
+   display: flex;
+   gap: 1.2rem;
 }
