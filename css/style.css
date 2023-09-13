@@ -87,7 +87,8 @@ a:visited {
    display: flex;
    gap: 0.6rem;
    align-items: center;
-   padding-left: 15px;
+   padding-left: 1rem;
+   margin-top: 1rem;
 }
 
 .branding .logo {
