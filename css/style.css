@@ -1,6 +1,6 @@
 :root {
-   --primary: #1992d4;
-   --secondary: #d2d2ea;
+   --primary: #3b82f6;
+   --secondary: #2563eb;
    --accent: #4c4ea4;
    --textDark: #0a0a15;
    --background: #f5f5fa;
@@ -65,7 +65,7 @@ a:visited {
 }
 
 .header {
-   background-color: green;
+   background-color: var(--background);
    grid-column: 2 / -1;
 }
 
@@ -124,6 +124,32 @@ a:visited {
 }
 
 /* HEADER */
-.searchLabel {
-   width: 1.8rem;
+.searchLabel,
+.bell {
+   width: 1.5rem;
+}
+
+.mini-pict {
+   width: 1rem;
+}
+
+.myButton {
+   background-color: var(--secondary);
+   border-radius: 28px;
+   border: 1px solid #4e6096;
+   display: inline-block;
+   cursor: pointer;
+   color: #ffffff;
+   font-size: 17px;
+   padding: 11px 44px;
+   text-decoration: none;
+   width: 9rem;
+   text-align: center;
+}
+.myButton:hover {
+   background-color: #476e9e;
+}
+.myButton:active {
+   position: relative;
+   top: 1px;
 }
