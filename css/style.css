@@ -3,7 +3,7 @@
    --secondary: #2563eb;
    --accent: #4c4ea4;
    --textDark: #0a0a15;
-   --background: #f5f5fa;
+   --background: #fff;
    --mainBackground: #e2e8f0;
    --padding-left: 40px;
 }
@@ -168,10 +168,17 @@ a:visited {
 }
 
 form {
-   border: 2px dotted red;
+   /* border: 2px dotted red; */
    display: grid;
    grid-template-columns: 2rem 1fr;
    gap: 1rem;
-   padding-left: 3rem;
-   padding-right: 10rem;
+   margin-left: 50px;
+   margin-right: 150px;
+}
+#search {
+   border-radius: 15px;
+   background-color: var(--mainBackground);
+   outline: none;
+   padding: 0 10px;
+   border: 1px solid var(--mainBackground);
 }
