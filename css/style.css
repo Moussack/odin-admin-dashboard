@@ -5,6 +5,7 @@
    --textDark: #0a0a15;
    --background: #f5f5fa;
    --mainBackground: #e2e8f0;
+   --padding-left: 40px;
 }
 
 html {
@@ -68,6 +69,9 @@ a:visited {
 .header {
    background-color: var(--background);
    grid-column: 2 / -1;
+   display: grid;
+   grid-template-columns: 4fr 3fr;
+   grid-template-rows: 1fr 1fr;
 }
 
 .sidebar {
@@ -155,4 +159,19 @@ a:visited {
    /* generated */
    position: relative;
    top: 2px;
+}
+
+.search-bar {
+   border: 2px dotted blueviolet;
+   display: grid;
+   align-items: center;
+}
+
+form {
+   border: 2px dotted red;
+   display: grid;
+   grid-template-columns: 2rem 1fr;
+   gap: 1rem;
+   padding-left: 3rem;
+   padding-right: 10rem;
 }
