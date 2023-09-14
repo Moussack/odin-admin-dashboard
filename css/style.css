@@ -122,3 +122,8 @@ a:visited {
    display: flex;
    gap: 1.2rem;
 }
+
+/* HEADER */
+.searchLabel {
+   width: 1.8rem;
+}
