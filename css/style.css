@@ -4,6 +4,7 @@
    --accent: #4c4ea4;
    --textDark: #0a0a15;
    --background: #f5f5fa;
+   --mainBackground: #e2e8f0;
 }
 
 html {
@@ -67,6 +68,9 @@ a:visited {
 .header {
    background-color: var(--background);
    grid-column: 2 / -1;
+   padding-bottom: 3px;
+   margin-bottom: 3px;
+   box-shadow: -1px 2px 5px -1px rgba(88, 12, 209, 0.75);
 }
 
 .sidebar {
@@ -78,7 +82,7 @@ a:visited {
 }
 
 .main-content {
-   background-color: blue;
+   background-color: var(--mainBackground);
    grid-column: 2 / -1;
    grid-row: 2 / -1;
 }
@@ -141,15 +145,17 @@ a:visited {
    cursor: pointer;
    color: #ffffff;
    font-size: 17px;
-   padding: 11px 44px;
+   padding: 9px 10px;
    text-decoration: none;
-   width: 9rem;
+   width: 7rem;
    text-align: center;
 }
 .myButton:hover {
+   /* generated */
    background-color: #476e9e;
 }
 .myButton:active {
+   /* generated */
    position: relative;
-   top: 1px;
+   top: 2px;
 }
