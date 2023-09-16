@@ -65,8 +65,9 @@ a:visited {
 .main-container {
    display: grid;
    grid-template-columns: 1fr 5fr;
-   grid-template-rows: repeat(6, 1fr);
-   height: 100dvh;
+   grid-template-rows: auto 1fr;
+   min-height: 100vh;
+   min-height: 100dvh;
 }
 
 .header {
@@ -78,11 +79,10 @@ a:visited {
 }
 
 .sidebar {
-   background-color: yellow;
    grid-row: 1 / -1;
    background-color: var(--primary);
    display: grid;
-   grid-template-rows: 5rem repeat(4, 1fr);
+   grid-template-rows: auto 1fr 1fr;
 }
 
 .main-content {
@@ -114,12 +114,19 @@ a:visited {
    margin-top: 2rem;
 }
 
-.buttons1,
-.buttons2 {
+.buttons1 {
    margin-bottom: 5rem;
    display: grid;
    gap: 1.4rem;
    padding-left: 1.7rem;
+}
+
+.buttons2 {
+   display: grid;
+   padding-left: 1.7rem;
+   align-content: end;
+   gap: 1.4rem;
+   padding-bottom: 1rem;
 }
 
 .qwe {
@@ -141,19 +148,19 @@ a:visited {
 }
 
 form {
-   /*  border: 2px dotted red; */
+   /* border: 2px dotted red; */
    display: grid;
-   grid-template-columns: 2rem 1fr;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
    gap: 1rem;
    margin-left: 50px;
-   margin-right: 150px;
+   margin-right: 110px;
 }
 
 #search {
    border-radius: 15px;
    background-color: var(--mainBackground);
    border: 1px solid var(--mainBackground);
-   padding: 0 10px;
+   padding: 5px 10px;
 }
 
 .searchLabel,
@@ -167,7 +174,7 @@ form {
 
 /* Profile */
 .profile {
-   /*  border: 2px dotted red; */
+   /* border: 2px dotted red; */
    display: flex;
    align-items: center;
    gap: 20px;
