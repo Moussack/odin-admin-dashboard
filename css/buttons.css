@@ -1,0 +1,23 @@
+/* Button */
+.myButton {
+   background-color: var(--secondary);
+   border-radius: 28px;
+   border: 1px solid #4e6096;
+   display: inline-block;
+   cursor: pointer;
+   color: #ffffff;
+   font-size: 17px;
+   padding: 9px 10px;
+   text-decoration: none;
+   width: 7rem;
+   text-align: center;
+}
+.myButton:hover {
+   /* generated */
+   background-color: #476e9e;
+}
+.myButton:active {
+   /* generated */
+   position: relative;
+   top: 2px;
+}

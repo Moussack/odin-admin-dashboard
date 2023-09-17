@@ -1,0 +1,51 @@
+/* ----------------------- HEADER ------------------------------- */
+
+/* Search bar */
+.search-bar {
+   /* border: 2px dotted blueviolet; */
+   display: grid;
+   align-items: center;
+}
+
+form {
+   /* border: 2px dotted red; */
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 1rem;
+   margin-left: 50px;
+   margin-right: 110px;
+}
+
+#search {
+   border-radius: 15px;
+   background-color: var(--mainBackground);
+   border: 1px solid var(--mainBackground);
+   padding: 5px 10px;
+}
+
+.searchLabel,
+.bell {
+   width: 1.5rem;
+}
+
+.mini-pict {
+   width: 1rem;
+}
+
+/* Profile */
+.profile {
+   /* border: 2px dotted red; */
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   padding-bottom: 20px;
+}
+
+.pict {
+   width: 75px;
+   height: 75px;
+   position: relative;
+   overflow: hidden;
+   border-radius: 50%;
+   margin-left: 55px;
+}

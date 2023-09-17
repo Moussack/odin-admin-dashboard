@@ -1,0 +1,30 @@
+/* -------------------------------MOCKUP------------------------------------------  */
+
+.main-container {
+   display: grid;
+   grid-template-columns: 1fr 5fr;
+   grid-template-rows: auto 1fr;
+   min-height: 100vh;
+   min-height: 100dvh;
+}
+
+.header {
+   background-color: var(--background);
+   grid-column: 2 / -1;
+   display: grid;
+   grid-template-columns: 4fr 3fr;
+   /* grid-template-rows: 1fr 1fr; */
+}
+
+.sidebar {
+   grid-row: 1 / -1;
+   background-color: var(--primary);
+   display: grid;
+   grid-template-rows: auto 1fr 1fr;
+}
+
+.main-content {
+   background-color: var(--mainBackground);
+   grid-column: 2 / -1;
+   grid-row: 2 / -1;
+}

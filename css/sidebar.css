@@ -1,0 +1,45 @@
+.branding {
+   display: flex;
+   gap: 0.6rem;
+   align-items: center;
+   padding-left: 1rem;
+   margin-top: 1rem;
+}
+
+.branding .logo {
+   width: 3.5rem;
+}
+
+.branding h1 {
+   font-size: 1.8rem;
+}
+
+.logo {
+   width: 1.8rem;
+}
+.buttons1 {
+   margin-top: 2rem;
+   padding-bottom: 5rem;
+}
+
+.buttons2 {
+   align-content: end;
+   padding-bottom: 1rem;
+   gap: 1rem;
+}
+
+.buttons1,
+.buttons2 {
+   display: grid;
+   padding-left: 1.7rem;
+   padding-right: 1.7rem;
+}
+
+.qwe {
+   width: 1.8rem;
+}
+
+.button-items {
+   display: flex;
+   gap: 1.2rem;
+}
