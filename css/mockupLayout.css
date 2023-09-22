@@ -25,7 +25,11 @@
 }
 
 .main-content {
+   /*  border: 4px solid red; */
    background-color: var(--mainBackground);
    grid-column: 2 / -1;
    grid-row: 2 / -1;
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+   gap: 1.5rem;
 }
