@@ -3,7 +3,7 @@
 }
 
 .container2 {
-   border: 1px solid red;
+   /* border: 1px solid red; */
    display: grid;
    gap: 1.5rem;
    padding: 20px 0;
@@ -13,7 +13,7 @@
    /*    border: 2px solid blue; */
    background-color: #fff;
    border-radius: 20px;
-   margin: 0 20px;
+   /*   margin: 0 20px; */
    padding: 0.8rem 1.7rem;
    display: grid;
 }
@@ -25,17 +25,18 @@
 
 .title {
    align-self: center;
-   margin-left: 20px;
+   /*  margin-left: 20px; */
 }
 
 .card-container {
    font-size: 0.88rem;
    display: grid;
+   box-shadow: 5px 5px 13px -2px rgba(148, 148, 148, 0.67);
 }
 
 .card-content {
    align-self: center;
-   padding-bottom: 20px;
+   padding-bottom: 23px;
    border-bottom: 2px solid lightgray;
    border-bottom-width: thin;
 }

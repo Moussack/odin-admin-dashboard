@@ -31,5 +31,6 @@
    grid-row: 2 / -1;
    display: grid;
    grid-template-columns: 3fr 1fr;
-   gap: 1.5rem;
+   padding-right: 30px;
+   /* gap: 1.5rem; */
 }
