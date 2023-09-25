@@ -51,4 +51,25 @@
    padding-bottom: 0;
 }
 
+.mini-profile-trending {
+   /*  background-color: red; */
+   display: grid;
+   grid-template-columns: 3rem auto;
+   gap: 20px;
+   align-items: center;
+}
+
+.mini-pict-trending {
+   width: 3.125rem;
+   height: 3.125rem;
+   position: relative;
+   overflow: hidden;
+   border-radius: 50%;
+}
+
+.card-content.trending {
+   padding-bottom: 0;
+   border-bottom: none;
+}
+
 /* MAIN CONTENT */
