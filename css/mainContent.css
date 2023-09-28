@@ -23,8 +23,9 @@
 .accouncement {
    display: grid;
    grid-template-rows: 40px 1fr;
-   grid-template-columns: 20rem;
+   grid-template-columns: 1fr;
    justify-content: center;
+   margin: 0 2.3rem;
 }
 
 .title {
