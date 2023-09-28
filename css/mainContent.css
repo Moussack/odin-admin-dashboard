@@ -1,14 +1,15 @@
 /* Announcements & Trending */
 
-.container1 {
-   border: 1px solid red;
+.container1,
+.container2 {
+   padding-bottom: 50px;
+   padding-top: 20px;
 }
 
 .container2 {
    /* border: 1px solid red; */
    display: grid;
    gap: 1.5rem;
-   padding: 20px 0;
 }
 
 .card-container {
@@ -75,6 +76,7 @@
 
 /* MAIN CONTENT */
 .container1 {
+   border: 1px solid red;
    display: grid;
    grid-template-rows: 40px 1fr;
 }
@@ -82,7 +84,7 @@
 .projects-container {
    border: 2px solid blue;
    display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
    /*   gap: 2rem;
    padding: 0 1.5rem; */
 }
