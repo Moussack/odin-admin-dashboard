@@ -76,7 +76,7 @@
 
 /* MAIN CONTENT */
 .container1 {
-   border: 1px solid red;
+   /* border: 1px solid red; */
    display: grid;
    grid-template-rows: 40px 1fr;
 }
@@ -101,7 +101,7 @@
    grid-template-columns: 10px 1fr;
    border-radius: 10px;
    /*    border: 2px solid red; */
-   padding-right: 25px;
+   padding-right: 35px;
    box-shadow: var(--boxShadow);
 }
 
@@ -133,4 +133,13 @@
 .project-title {
    align-self: center;
    padding-left: 20px;
+}
+
+.project-icon {
+   width: 1.7rem;
+}
+
+.project-icon:active {
+   position: relative;
+   top: 2px;
 }
