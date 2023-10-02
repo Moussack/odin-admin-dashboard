@@ -91,10 +91,6 @@
    padding: 0 1.5rem; */
 }
 
-.projects-container > div {
-   /* border: 2px dotted blue; */
-}
-
 .project-card {
    background-color: #fff;
    display: grid;
