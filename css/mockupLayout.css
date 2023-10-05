@@ -21,18 +21,13 @@
 }
 
 .sidebar {
-   /*  grid-row: 1 / -1; */
+   grid-row: 1 / -1;
    background-color: var(--primary);
-   /* display: grid; */
-   /*  grid-template-rows: auto 1fr 1fr; */
+   display: grid;
+   grid-template-rows: auto 1fr 1fr;
    position: fixed;
    width: 17dvw;
    height: 100dvh;
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
-   padding: 1.5%;
-   font-size: 1.5rem;
 }
 
 .main-content {
