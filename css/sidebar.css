@@ -42,3 +42,57 @@
    display: flex;
    gap: 1.2rem;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1400px) {
+   .branding {
+      background-color: red;
+      width: 85%;
+   }
+
+   .branding h1 {
+      font-size: 1.4rem;
+   }
+
+   .branding .logo {
+      width: 2rem;
+   }
+}
+
+@media screen and (max-width: 1100px) {
+   .branding {
+      background-color: blue;
+      width: 70%;
+   }
+
+   .branding h1 {
+      font-size: 1.1rem;
+   }
+}
+
+@media screen and (max-width: 850px) {
+   .branding {
+      background-color: green;
+      width: 60%;
+   }
+
+   .branding h1 {
+      font-size: 1rem;
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .branding {
+      background-color: hsl(217, 91%, 65%);
+      width: 30%;
+   }
+
+   .branding h1 {
+      display: none;
+   }
+
+   .branding .logo {
+      width: 3rem;
+   }
+}
