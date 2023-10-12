@@ -70,6 +70,14 @@
    .button-items {
       gap: 0.5rem;
    }
+
+   /* TRANSITION */
+   .button-items,
+   .branding,
+   .buttons1,
+   .buttons2 {
+      transition: width 0.5s ease-in-out;
+   }
 }
 
 @media screen and (max-width: 1000px) {
@@ -118,6 +126,14 @@
       padding-top: 20px;
       padding-bottom: 20px;
    }
+
+   /* TRANSITION */
+   .button-items,
+   .branding,
+   .buttons1,
+   .buttons2 {
+      transition: width 0.5s ease-in-out;
+   }
 }
 
 @media screen and (max-width: 850px) {
@@ -145,6 +161,14 @@
    .buttons2 {
       padding-top: 20px;
       padding-bottom: 20px;
+   }
+
+   /* TRANSITION */
+   .button-items,
+   .branding,
+   .buttons1,
+   .buttons2 {
+      transition: width 0.5s ease-in-out;
    }
 }
 
@@ -174,5 +198,13 @@
    .buttons2 {
       padding-top: 20px;
       padding-bottom: 20px;
+   }
+
+   /* TRANSITION */
+   .button-items,
+   .branding,
+   .buttons1,
+   .buttons2 {
+      transition: width 0.5s ease-in-out;
    }
 }
