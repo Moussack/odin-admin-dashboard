@@ -39,3 +39,16 @@
    grid-template-columns: 3fr 1fr;
    /* gap: 1.5rem; */
 }
+
+@media screen and (max-width: 1000px) {
+   .main-content {
+      background-color: red;
+      grid-template-columns: 1fr;
+   }
+   .container1 {
+      order: 2;
+   }
+   .container1 {
+      order: 1;
+   }
+}
