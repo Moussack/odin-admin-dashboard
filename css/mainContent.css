@@ -143,6 +143,30 @@
 /* MEDIA QUERY */
 @media screen and (max-width: 1000px) {
    .projects-container {
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(400px, 41rem));
+   }
+}
+
+@media screen and (max-width: 845px) {
+   .projects-container {
+      grid-template-columns: repeat(auto-fit, minmax(400px, 35rem));
+   }
+}
+
+@media screen and (max-width: 745px) {
+   .projects-container {
+      grid-template-columns: repeat(auto-fit, minmax(400px, 31rem));
+   }
+}
+
+@media screen and (max-width: 650px) {
+   .projects-container {
+      grid-template-columns: repeat(auto-fit, minmax(400px, 26rem));
+   }
+}
+
+@media screen and (max-width: 580px) {
+   .projects-container {
+      grid-template-columns: repeat(auto-fit, minmax(390px, 15rem));
    }
 }
