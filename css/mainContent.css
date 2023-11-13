@@ -75,6 +75,10 @@
 }
 
 /* MAIN CONTENT */
+.project-content a {
+   color: var(--textDark);
+}
+
 .container1 {
    /* border: 1px solid red; */
    display: grid;
