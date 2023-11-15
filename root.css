@@ -1,0 +1,10 @@
+:root {
+   --primary: #3b82f6;
+   --secondary: #2563eb;
+   --accent: #6719e4;
+   --textDark: #0a0a15;
+   --background: #fff;
+   --mainBackground: #e2e8f0;
+   --padding-left: 40px;
+   --boxShadow: 5px 5px 13px -2px rgba(205, 210, 217, 0.95);
+}

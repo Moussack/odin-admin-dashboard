@@ -1,0 +1,79 @@
+/* -------------------------------MOCKUP------------------------------------------  */
+
+.main-container {
+   display: grid;
+   grid-template-columns: 17dvw 5fr;
+   grid-template-rows: auto 1fr;
+   height: 100vh;
+   height: 100dvh;
+}
+
+.header {
+   background-color: var(--background);
+   grid-column: 2 / -1;
+   display: grid;
+   grid-template-columns: 3fr 2fr;
+   /* grid-template-rows: 1fr 1fr; */
+   padding: 0 3.5rem;
+   position: relative;
+   box-shadow: var(--boxShadow);
+   /*  z-index: 10; */
+}
+
+.sidebar {
+   grid-row: 1 / -1;
+   background-color: var(--primary);
+   display: grid;
+   grid-template-rows: auto 1fr 1fr;
+   position: fixed;
+   width: 17dvw;
+   height: 100dvh;
+}
+
+.main-content {
+   /*  border: 4px solid red; */
+   background-color: var(--mainBackground);
+   grid-column: 2 / -1;
+   grid-row: 2 / -1;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   /* gap: 1.5rem; */
+}
+
+@media screen and (max-width: 1000px) {
+   .main-content {
+      /*   background-color: red; */
+      grid-template-columns: auto;
+   }
+   .container1 {
+      order: 2;
+   }
+   .container2 {
+      order: 1;
+      width: 45rem;
+   }
+}
+
+@media screen and (max-width: 845px) {
+   .container2 {
+      width: 40rem;
+   }
+}
+
+@media screen and (max-width: 745px) {
+   .container2 {
+      width: 35rem;
+   }
+}
+
+@media screen and (max-width: 650px) {
+   .container2 {
+      width: 30rem;
+   }
+}
+
+@media screen and (max-width: 580px) {
+   .container2 {
+      width: 25rem;
+   }
+}

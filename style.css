@@ -1,0 +1,214 @@
+:root {
+   --primary: #3b82f6;
+   --secondary: #2563eb;
+   --accent: #4c4ea4;
+   --textDark: #0a0a15;
+   --background: #fff;
+   --mainBackground: #e2e8f0;
+   --padding-left: 40px;
+}
+
+/* ---------------------CSS RESET---------------------------------------- */
+html {
+   box-sizing: border-box;
+   font-size: 16px;
+   font-family: 'Nunito', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Rubik', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+   margin: 0;
+   padding: 0;
+   font-weight: 500;
+}
+
+ol,
+ul {
+   list-style: none;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:link {
+   color: #fff;
+}
+
+a:visited {
+   color: #fff;
+}
+
+/* -------------------------------MOCKUP------------------------------------------  */
+
+.main-container {
+   display: grid;
+   grid-template-columns: 1fr 5fr;
+   grid-template-rows: auto 1fr;
+   min-height: 100vh;
+   min-height: 100dvh;
+}
+
+.header {
+   background-color: var(--background);
+   grid-column: 2 / -1;
+   display: grid;
+   grid-template-columns: 4fr 3fr;
+   /* grid-template-rows: 1fr 1fr; */
+}
+
+.sidebar {
+   grid-row: 1 / -1;
+   background-color: var(--primary);
+   display: grid;
+   grid-template-rows: auto 1fr 1fr;
+}
+
+.main-content {
+   background-color: var(--mainBackground);
+   grid-column: 2 / -1;
+   grid-row: 2 / -1;
+}
+
+.branding {
+   display: flex;
+   gap: 0.6rem;
+   align-items: center;
+   padding-left: 1rem;
+   margin-top: 1rem;
+}
+
+.branding .logo {
+   width: 3.5rem;
+}
+
+.branding h1 {
+   font-size: 1.8rem;
+}
+
+.logo {
+   width: 1.8rem;
+}
+.buttons1 {
+   margin-top: 2rem;
+   padding-bottom: 5rem;
+}
+
+.buttons2 {
+   align-content: end;
+   padding-bottom: 1rem;
+   gap: 1rem;
+}
+
+.buttons1,
+.buttons2 {
+   display: grid;
+   padding-left: 1.7rem;
+   padding-right: 1.7rem;
+}
+
+.qwe {
+   width: 1.8rem;
+}
+
+.button-items {
+   display: flex;
+   gap: 1.2rem;
+}
+
+/* ----------------------- HEADER ------------------------------- */
+
+/* Search bar */
+.search-bar {
+   /* border: 2px dotted blueviolet; */
+   display: grid;
+   align-items: center;
+}
+
+form {
+   /* border: 2px dotted red; */
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 1rem;
+   margin-left: 50px;
+   margin-right: 110px;
+}
+
+#search {
+   border-radius: 15px;
+   background-color: var(--mainBackground);
+   border: 1px solid var(--mainBackground);
+   padding: 5px 10px;
+}
+
+.searchLabel,
+.bell {
+   width: 1.5rem;
+}
+
+.mini-pict {
+   width: 1rem;
+}
+
+/* Profile */
+.profile {
+   /* border: 2px dotted red; */
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   padding-bottom: 20px;
+}
+
+.pict {
+   width: 75px;
+   height: 75px;
+   position: relative;
+   overflow: hidden;
+   border-radius: 50%;
+   margin-left: 55px;
+}
+
+/* Button */
+.myButton {
+   background-color: var(--secondary);
+   border-radius: 28px;
+   border: 1px solid #4e6096;
+   display: inline-block;
+   cursor: pointer;
+   color: #ffffff;
+   font-size: 17px;
+   padding: 9px 10px;
+   text-decoration: none;
+   width: 7rem;
+   text-align: center;
+}
+.myButton:hover {
+   /* generated */
+   background-color: #476e9e;
+}
+.myButton:active {
+   /* generated */
+   position: relative;
+   top: 2px;
+}

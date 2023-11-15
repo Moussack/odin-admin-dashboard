@@ -1,0 +1,88 @@
+/* ----------------------- HEADER ------------------------------- */
+
+/* Search bar */
+.search-bar {
+   /* border: 2px dotted blueviolet; */
+   display: grid;
+   align-items: center;
+}
+
+form {
+   /* border: 2px dotted red; */
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 1rem;
+}
+
+#search {
+   border-radius: 15px;
+   background-color: var(--mainBackground);
+   border: 1px solid var(--mainBackground);
+   padding: 5px 10px;
+}
+
+.searchLabel {
+   width: 1.5rem;
+}
+
+.mini-pict {
+   width: 1rem;
+}
+
+/* Profile */
+.profile {
+   /* border: 2px dotted red; */
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   padding-bottom: 20px;
+}
+
+.pict,
+.mini-pict {
+   width: 75px;
+   height: 75px;
+   position: relative;
+   overflow: hidden;
+   border-radius: 50%;
+}
+
+/* Mini Profile */
+.search-bar,
+.mini-profile {
+   padding-top: 15px;
+   padding-bottom: 20px;
+}
+
+.mini-profile {
+   /*  border: 3px dotted royalblue; */
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+   gap: 1.4rem;
+}
+
+.mini-pict {
+   margin-left: 0;
+   width: 50px;
+   height: 50px;
+}
+
+.mini-name {
+   font-size: 1.3rem;
+   font-weight: bold;
+}
+
+.bell {
+   width: 1.7rem;
+}
+
+/* Buttons */
+.buttons {
+   /*    border: 2px dotted red; */
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 2.4rem;
+}

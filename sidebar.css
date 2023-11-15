@@ -1,0 +1,178 @@
+.branding {
+   display: flex;
+   gap: 0.4rem;
+   align-items: center;
+   margin-top: 1rem;
+   padding-left: 5%;
+}
+
+.branding .logo {
+   width: 3.5rem;
+}
+
+.branding h1 {
+   font-size: 1.8rem;
+}
+
+.logo {
+   width: 1.8rem;
+}
+.buttons1 {
+   margin-top: 3rem;
+   margin-bottom: 2rem;
+}
+
+.buttons2 {
+   align-content: end;
+   margin-bottom: 1rem;
+   gap: 1rem;
+}
+
+.buttons1,
+.buttons2 {
+   display: grid;
+   padding-left: 8%;
+}
+
+.qwe {
+   width: 1.8rem;
+}
+
+.button-items {
+   display: flex;
+   gap: 1.2rem;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1400px) {
+   .branding {
+      /*   background-color: red; */
+      width: 17dvw;
+      padding: 10px 10px;
+   }
+
+   .branding h1 {
+      font-size: 1.45rem;
+   }
+
+   .branding .logo {
+      width: 1.5rem;
+   }
+
+   .buttons1 h2,
+   .buttons2 h2 {
+      font-size: 1.3rem;
+   }
+   .qwe {
+      width: 1.5rem;
+   }
+   .button-items {
+      gap: 0.5rem;
+   }
+}
+
+@media screen and (max-width: 1000px) {
+   .sidebar {
+      padding-bottom: 20px;
+   }
+
+   .branding {
+      /*   background-color: blue; */
+      background-color: hsl(217, 91%, 64%);
+      justify-content: center;
+      padding-left: 0;
+      width: 17dvw;
+   }
+
+   .branding .logo {
+      width: 4rem;
+   }
+
+   .branding h1 {
+      font-size: 1.1rem;
+      display: none;
+   }
+   .buttons1,
+   .buttons2 {
+      /* background-color: blue; */
+      background-color: hsl(217, 91%, 64%);
+      justify-content: center;
+      padding-left: 0;
+      gap: 20px;
+      width: 17dvw;
+   }
+   .buttons1 h2,
+   .buttons2 h2 {
+      font-size: 1rem;
+      display: none;
+   }
+   .qwe {
+      width: 2.3rem;
+   }
+   .buttons2 {
+      align-content: end;
+   }
+   .buttons1,
+   .buttons2 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+}
+
+@media screen and (max-width: 850px) {
+   .branding {
+      /* background-color: green; */
+      background-color: hsl(217, 91%, 64%);
+   }
+
+   .branding h1 {
+      font-size: 1rem;
+   }
+
+   .buttons1,
+   .buttons2 {
+      justify-content: center;
+      padding-left: 0;
+      width: 17dvw;
+      gap: 30px;
+   }
+
+   .qwe {
+      width: 2rem;
+   }
+   .buttons1,
+   .buttons2 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .branding {
+      background-color: hsl(217, 91%, 64%);
+      width: 17dvw;
+      justify-content: center;
+   }
+
+   .branding h1 {
+      display: none;
+   }
+
+   .branding .logo {
+      width: 3rem;
+   }
+
+   .buttons1,
+   .buttons2 {
+      background-color: hsl(217, 91%, 64%);
+      justify-content: center;
+      width: 17dvw;
+   }
+
+   .buttons1,
+   .buttons2 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+}
